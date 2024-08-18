@@ -1,11 +1,6 @@
 <template>
   <div class="container">
-    <b-card
-      title="欢迎登录"
-      img-src="https://via.placeholder.com/150"
-      img-alt="Image"
-      img-top
-    >
+    <b-card title="欢迎登录">
       <b-form @submit.prevent="handleSubmit">
         <b-form-group id="input-group-1" label="用户名:" label-for="input-1">
           <b-form-input
